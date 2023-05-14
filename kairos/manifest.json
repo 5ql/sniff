@@ -1,0 +1,12 @@
+{
+  "name": "Website Blocker",
+  "version": "1.0",
+  "description": "Block websites that you want blocked",
+  "permissions": ["webRequest", "webRequestBlocking", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["blocker.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
