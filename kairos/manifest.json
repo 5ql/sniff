@@ -5,8 +5,7 @@
   "permissions": ["webRequest", "webRequestBlocking", "storage"],
   "options_page": "options.html",
   "background": {
-    "scripts": ["blocker.js"],
-    "persistent": false
+    "scripts": ["blocker.js"]
   },
   "manifest_version": 2
 }
